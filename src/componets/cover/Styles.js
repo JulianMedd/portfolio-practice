@@ -21,11 +21,11 @@ export const Video = styled.video `
 
 export const Title = styled.h1 `
     color: white;
-    font-size: 100px;
+    font-size: 60px;
 `;
 
 export const Text = styled.p `
     margin-top: 8px;
     color: white;
-    font-size: 32px;
+    font-size: 28px;
 `;
