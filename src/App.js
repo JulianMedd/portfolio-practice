@@ -3,6 +3,7 @@ import './App.css';
 import About from './componets/about/About';
 import Cover from './componets/cover/Cover';
 import NavBar from './componets/navegation/NavBar';
+import Slider from './componets/slider/Slider';
 
 function App() {
   const [scrollHeight, setScrollHeight] = useState(0);
@@ -21,6 +22,7 @@ function App() {
       <NavBar scrollValue={scrollHeight}/>
       <Cover/>
       <About/>
+      <Slider/>
     </div>
   );
 }
